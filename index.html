@@ -32,12 +32,23 @@
             <div class="left"></div>
             <div class="right">
               <h2 class="titre_contact">Me contacter</h2>
+              <!-- https://formspree.io/f/xyyboorq -->
+
+              <form action="https://formspree.io/f/xyyboorq" method="POST">
+                
+                <label for="nom_prenom"> Nom et Prénom </label>
+                <input id="nom_prenom" name="Nom" type="text" class="field" placeholder="Votre Nom et Prénom" required>
+                <label for="email"> Email </label>
+                <input id="email" name="Mail" type="email" class="field" placeholder="Votre Email" required>
+                <label for="num"> Numéro </label>
+                <input id="num" name="Numéro" type="text" class="field" placeholder="Votre Numéro">
+                <label for="message"> Message </label>
+                <textarea id="message" name="Message" placeholder="Message" class="field" required></textarea>
+                <input type="submit" value="Envoyer">
+
+              </form>
+
               
-              <input type="text" class="field" placeholder="Votre Nom et Prénom">
-              <input type="text" class="field" placeholder="Votre Email">
-              <input type="text" class="field" placeholder="Votre Numéro">
-              <textarea placeholder="Message" class="field"></textarea>
-              <button class="btn">Envoyer</button>
             </div>
           </div>
         </div>

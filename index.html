@@ -9,49 +9,119 @@
         <meta name="viewport" content="width=device-width, initial-scale=">
         <link rel="stylesheet" href="css/navbar.css">
         <link rel="stylesheet" href="css/contact.css">
+        <link rel="stylesheet" href="css/contenu.css">
+        <link rel="stylesheet" href="css/animation.css">
+        <link rel="stylesheet" href="css/carrousel.css">
+
       </head> 
 
       <body>
+
+        <!------------------------------ NavBarre ---------------------------->
         <header>
-          <!-- <img class="logo" src="img/test.png">  -->
+
           <nav>
             <ul class="nav__links">
-              <li><a href="#"> Accueil</a></li>
-              <li><a href="#"> Présentation</a></li>
-              <li><a href="#"> Réalisations</a></li>
-              <li><a href="#"> Contact</a></li>
+              <li><a href="index.html"> Accueil</a></li>
+              <li><a href="realisation.html"> Réalisations</a></li>
+              <li><a href="contact.html"> Contact</a></li>
             </ul>
           </nav>
         </header>
+        <br>
 
-        <h1 class="titre_1">Bienvenue sur mon Portfolio</h1>
-        <h2 class="titre_2">Emma Fouillat</h2>
+        <!------------------------------ Fin NavBarre ---------------------------->
 
-        <div class="container">
-          <div class="contact-box">
-            <div class="left"></div>
-            <div class="right">
-              <h2 class="titre_contact">Me contacter</h2>
-              <!-- https://formspree.io/f/xyyboorq -->
 
-              <form action="https://formspree.io/f/xyyboorq" method="POST">
-                
-                <label for="nom_prenom"> Nom et Prénom. </label>
-                <input id="nom_prenom" name="Nom" type="text" class="field" placeholder="Votre Nom et Prénom" required>
-                <label for="email"> Email </label>
-                <input id="email" name="Mail" type="email" class="field" placeholder="Votre Email" required>
-                <label for="num"> Numéro </label>
-                <input id="num" name="Numéro" type="text" class="field" placeholder="Votre Numéro">
-                <label for="message"> Message </label>
-                <textarea id="message" name="Message" placeholder="Message" class="field" required></textarea>
-                <input type="submit" value="Envoyer">
+        <!------------------------- Animation TypeWriter ------------------------->
+        
+        <div class="debut">
 
-              </form>
-
-              
-            </div>
-          </div>
+            <h1 class="titre_debut">Bienvenue sur mon portfolio    
+              <br>  
+              Emma Fouillat  
+              <br>
+              Développeuse Web</h1>
+             
         </div>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        
+        <script src="js/app.js"></script>
+
+
+         <!------------------------- Fin Animation Typewriter ------------------------->
+
+
+         <!------------------------- Animation Carrousel ------------------------->
+
+         <div class="slider">
+          <figure>
+            <img src="img/musee.png" alt>
+            <img src="img/nuit.jpg" alt>
+            <img src="img/musee.png" alt>
+            <img src="img/nuit.jpg" alt>
+            <img src="img/musee.png" alt>
+          </figure>
+        </div>
+
+
+
+
+
+
+
+         <!------------------------- Fin Animation Carrousel ------------------------->
+
+
+
+        <footer class="pied">
+
+          <!-- Possible liens vers réseaux sociaux (suite dans animation.css) ------
+
+            div class="media-container">
+             <div class="media-btn">
+                <img src="img/facebook.png" alt="icone facebook" class="icones">
+              </div>
+              <div class="media-btn">
+                <img src="img/linkedin.png" alt="icone linkedin" class="icones">
+              </div>
+              <div class="media-btn">
+                <img src="img/youtube.png" alt="icone youtube" class="icones">
+              </div>
+            </div> 
+
+            <a href="#" class="btn"> Découvrir </a> --->
+
+
+            <!------------------------- Réseaux Sociaux ------------------------->
+
+
+            <!-- <section class="social_menu">
+              <ul>
+                <li>
+                  <a href="https://www.facebook.com/profile.php?id=100006787369304" alt="Lien facebook">
+                  </a>
+                  <a href="#" alt="">
+                  </a>
+                  <a href="#" alt="">
+                  </a>
+                </li>
+              </ul>
+
+
+            </section> -->
+
+
+            <!------------------------- Fin Réseaux Sociaux ------------------------->
+
+
+            <p class="para_footer"> Copyright Emma Fouillat 2021. Tous droits réservés.</p>
+
+        </footer>
+
+       
+
 
       </body>
   </html>

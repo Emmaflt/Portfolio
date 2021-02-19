@@ -1,18 +1,24 @@
+/* Style pour le header et le footer */
+
+/* ------------------ HEADER ------------------ */
+
+
 @import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
 
 body {
+	font-family: "Montserrat", sans-serif;
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	background-color: #f7ede2;
+	background-color: #f4f9f9;
 }
 
 li, a {
 	font-family: "Montserrat", sans-serif;
 	font-weight: 500;
 	font-size: 16px;
-	color: #f7ede2;
+	color: #f4f9f9;
 	text-decoration: none;
 }
 
@@ -47,3 +53,46 @@ header {
 	color:#3ab795;
 }
 
+
+/* ------------------ FOOTER ------------------ */
+
+.pied {
+	padding-bottom: 10px;
+	background-color: #293241;
+}
+
+.para_footer {
+	padding-top: 150px;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+	color: #ffff;
+	text-align: center;
+	text-decoration: none;
+}
+
+
+/* -------------------- Pour les boutons médias facebook etc ----------------- */
+
+/*
+.media-container {
+    display: flex;
+    padding-left: 240px;
+    margin: 20px 0 40px 0;
+}
+
+.medias-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.icones {
+    width: 25px;
+}       
+*/

@@ -2,6 +2,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
 
 .titre_1 {
+    margin-top: 50px;
     text-align: center;
-    color: #f7ede2;
+    color: #293241;
 }
+
+.titre_2 {
+    margin-bottom: 50px;
+    text-align: center;
+    color: #293241;
+}
+
+.img_deco img {
+    height: 100%;
+    width: 100%;
+}
+
+

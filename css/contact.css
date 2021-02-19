@@ -51,7 +51,7 @@ body{
 	/* justify-content: center;
 	align-items: center;
 	text-align: center; */
-	background-color: #fff;
+	background-color: #f4f9f9;
 	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
 }
 
@@ -113,7 +113,7 @@ textarea{
 	width: 100%;
 	padding: 0.5rem 1rem;
 	background-color: #2ecc71;
-	color: #fff;
+	color: #f4f9f9;
 	font-size: 1.1rem;
 	border: none;
 	outline: none;
@@ -127,7 +127,7 @@ textarea{
 
 .field:focus{
     border: 2px solid rgba(30,85,250,0.47);
-    background-color: #fff;
+    background-color: #f4f9f9;
 }
 
 @media screen and (max-width: 880px){

@@ -26,7 +26,7 @@
     display: flex;
 }
 
-.img_presentation {
+/*.img_presentation {
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 100px;
@@ -37,7 +37,7 @@
     height: 300px;    
     border-radius: 50% ;
 }
-
+*/
 .titre_presentation {
     padding-top: 50px;
     padding-left: 75px;
@@ -50,7 +50,7 @@
     padding-top: 5px;
     padding-left: 50px;
 }
-
+ 
 
 
 

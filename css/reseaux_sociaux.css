@@ -16,7 +16,7 @@
     align-self: center;
 }
 
-.social_menu ul  {
+.social_menu ul li {
     list-style: none;     /*enlève les puces*/
     margin: 0 10px;     /*séparation horizontale entre les boutons*/
 }

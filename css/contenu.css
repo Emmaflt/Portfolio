@@ -19,3 +19,43 @@
 }
 
 
+
+/* ---------------- Page Acceuil - Présentation ------------------ */
+
+.presentation {
+    display: flex;
+}
+
+.img_presentation {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    background-color: none;
+    display: flex;
+    align-self: center;
+    width: 300px;     
+    height: 300px;    
+    border-radius: 50% ;
+}
+
+.titre_presentation {
+    padding-top: 50px;
+    padding-left: 75px;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.para_presentation {
+    padding-top: 5px;
+    padding-left: 50px;
+}
+
+
+
+
+
+
+
+
+

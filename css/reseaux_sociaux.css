@@ -1,4 +1,7 @@
  
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+@import url('https://fonts.googleapis.com/css2? family = Montserrat & display = swap');
+
 /* --------------------- Réseaux Sociaux ------------------ */
 
 .social_menu {
@@ -38,7 +41,7 @@
     width: 50px;      /*largeur des rectangles*/
     height: 50px;     /*hauteur des rectangles*/
     border-radius: 50% ;     /*rondeur des angles*/
-    background-color: white;     /*couleur des rectangles*/
+    background-color: #f4f9f9;     /*couleur des rectangles*/
     text-align: center;
     transition: 0.5s;      /*temps de la transition/animation*/
     transform: translate(0,0px);
@@ -50,15 +53,15 @@
 }
 
 .social_menu ul li:nth-child(1) a:hover {      /*couleur transition facebook*/
-    background-color: white;
+    background-color: #f4f9f9;
 }
 
 .social_menu ul li:nth-child(3) a:hover {      /*couleur transition youtube*/
-    background-color: white;
+    background-color: #f4f9f9;
 }
 
 .social_menu ul li:nth-child(2) a:hover {      /*couleur transition linkedin*/
-    background-color: white;
+    background-color: #f4f9f9;
 }
 
 

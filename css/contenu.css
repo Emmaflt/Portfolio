@@ -61,8 +61,7 @@
 /* ------------------------------------------------ Partie sur les réalisations ------------------------------------- */
 
 
-.photomontage_bande /*CASE*/
- {
+.photomontage_bande {
     display: flex;
     margin: 0;
     justify-content: center;
@@ -88,9 +87,11 @@
     width: 90%;
     height: auto;
 }
+
 .couverture:hover {
     opacity:0.7;
 }
+
 .category_title {
     font-family: "Alice";
     font-size: 40px;
@@ -100,6 +101,7 @@
     position: absolute;
     background-color: rgba(0, 0, 0, 0.61);
 }
+
 .contour {
     color:#ffffff00 ;
 }

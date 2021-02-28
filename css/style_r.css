@@ -2,7 +2,7 @@
 .tout {
     display: flex;
     margin: 0;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: row;
     align-items: center;
     padding-top: 25px;
@@ -18,8 +18,13 @@
     justify-content: center;
 }
 
-.cote-droit {
+.cote_droit {
     margin: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
 }
 
 .btn_r {
@@ -53,7 +58,6 @@
     color: black;
     font-size: 50px;
     text-decoration: none;
-    text-align: center;
 }
 
 
@@ -62,6 +66,5 @@
     text-decoration: none;
     font-size: 20px;
     font-family: "Bebas Neue";
-    text-align: center;
 }
 

@@ -5,13 +5,12 @@
 /* --------------------- Réseaux Sociaux ------------------ */
 
 .social_menu {
-	position: relative;
 	width: 100%;
 	background-color: none;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	height: 200px;
+	height: 100px;
 }
 
 .social_menu ul {

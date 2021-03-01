@@ -74,8 +74,16 @@
     justify-content: center;
 }
 
+.aud {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;    
+}
+
 .titre_r{
-    color: black;
+    color: #293241;
     font-size: 40px;
     text-decoration: none;
     text-align: center;
@@ -83,7 +91,7 @@
 
 
 .para_r {
-    color: black;
+    color: #293241;
     text-decoration: none;
     font-size: 20px;
     font-family: "Bebas Neue";

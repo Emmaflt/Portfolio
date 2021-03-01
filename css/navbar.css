@@ -51,13 +51,14 @@ header {
 }
 
 .nav__links li a:hover{
-	color:#3ab795;
+	color:#00509d;
 }
 
 
 /* ------------------ FOOTER ------------------ */
 
 .pied {
+	bottom: 0;
 	padding-bottom: 10px;
 	background-color: #293241;
 }

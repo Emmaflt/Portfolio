@@ -37,6 +37,7 @@
     text-align: center;
     border-radius: 5px;
     padding: 10px 10px;
+    cursor: pointer;
 }
 
 .btn_r:hover {
@@ -54,10 +55,21 @@
     justify-content: center;
 }
 
+.image_r2 {
+    width: 600px;
+    height: auto;
+    margin-top: 40px; 
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+}
+
 .titre_r{
     color: black;
-    font-size: 50px;
+    font-size: 40px;
     text-decoration: none;
+    text-align: center;
 }
 
 
@@ -66,5 +78,6 @@
     text-decoration: none;
     font-size: 20px;
     font-family: "Bebas Neue";
+    text-align: center;
 }
 

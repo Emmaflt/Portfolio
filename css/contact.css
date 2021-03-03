@@ -15,6 +15,7 @@
 	text-align: center;
 	font-family: 'Alice', sans-serif;
 	font-size: 30px;
+	color: black;
 }
 
 body{
@@ -49,9 +50,6 @@ body{
 	max-width: 850px;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	/* justify-content: center;
-	align-items: center;
-	text-align: center; */
 	background-color: #f4f9f9;
 	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
 }
@@ -87,7 +85,7 @@ body{
     height: 4px;
     width: 50px;
     border-radius: 2px;
-    background-color: #2ecc71;
+    background-color: #4cc9f0;
 }
 
 
@@ -113,7 +111,7 @@ textarea{
 .btn_1{
 	width: 100%;
 	padding: 0.5rem 1rem;
-	background-color: #2ecc71;
+	background-color: #4cc9f0;
 	color: #f4f9f9;
 	font-size: 1.1rem;
 	border: none;
@@ -123,7 +121,7 @@ textarea{
 }
 
 .btn:hover{
-    background-color: #27ae60;
+    background-color: #4cc9f0;
 }
 
 .field:focus{
@@ -143,3 +141,4 @@ textarea{
 label {
 	color: white;	
 }
+

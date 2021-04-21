@@ -73,6 +73,13 @@ header {
 	width: 100%;
 }
 
+.pied1 {
+	bottom: 0;
+	background-color: #293241;
+	position: absolute;
+	width: 100%;
+}
+
 .pied2 {
 	bottom: 0;
 	background-color: #293241;

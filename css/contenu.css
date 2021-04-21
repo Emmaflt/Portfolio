@@ -18,11 +18,38 @@
     width: 100%;
 }
 
+/* ---------------- Page Acceuil - Animation ------------------ */
+
+/* 
+.debut, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 71%;
+    background: #f4f9f9;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+
+.titre_debut {
+    font-size: 60px;
+    padding-top: 125px;
+    padding-bottom: 125px;
+    text-align: center;
+}
+
+
+.titre_contact2 {
+    font-size: 50px;
+    text-align: center;
+}
+
 /* ---------------- Page Acceuil - Présentation ------------------ */
 
 .presentation {
     display: flex;
-    padding-bottom: 100px;
 }
 
 .img_presentation {

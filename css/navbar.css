@@ -9,6 +9,8 @@
 .img_logo{
 	width: auto;
 	height: 50px;
+	padding-top: 10px;
+	padding-left: 20px;
 }
 
 /* -------------------------------------- NAVBAR ------------------------------------ */
@@ -40,6 +42,7 @@ header {
 .nav__links {
 	top: 0;
 	list-style: none;
+	padding-top: 10px;
 }
 
 .nav_links li, a {
